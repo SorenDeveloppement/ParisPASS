@@ -1,0 +1,72 @@
+html {
+    height: 100%;
+    font-family: 'Consolas';
+}
+
+body {
+    background: #1E1E1E;
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    width: auto;
+}
+
+.hide {
+    display: none;
+}
+
+.top-bar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #2E2E2E;
+    border-bottom: 2px solid rgba( 255, 255, 255, 0.18 );
+    width: 100%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.menubtn {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2E2E2E;
+    width: 250px;
+    height: 100%;
+    margin-top: 82px;
+    border-right: 2px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.menubtn .menu {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.menubtn .menu a {
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+    color: whitesmoke;
+}
+
+.content {
+    margin-left: 300px;
+}
