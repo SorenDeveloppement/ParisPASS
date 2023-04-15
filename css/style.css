@@ -70,3 +70,16 @@ h1 {
 .content {
     margin-left: 300px;
 }
+
+.article {
+    display: flex;
+}
+
+.img, .info {
+    width: 50%;
+    margin: 10px;
+}
+
+.h1 {
+    margin: 10px;
+}
