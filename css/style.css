@@ -43,6 +43,12 @@ h1 {
     align-items: center;
 }
 
+.bottom {
+    position: fixed;
+    bottom: 25px;
+    z-index: 10;
+}
+
 .menubtn {
     position: fixed;
     display: flex;
