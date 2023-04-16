@@ -20,13 +20,13 @@
 
             <div class="password">
                 <h2>Password</h2>
-                <input type="password" name="pass" id="pass" placeholder="Password" class="field">
+                <input type="password" name="pass" id="pass" placeholder="Password" class="field"><br><br>
+                <input type="password" name="pass" id="pass" placeholder="Password check" class="field">
             </div>
 
-            <a class="account" href="register.php">Vous n'avez pas de compte? Créez en un ici !</a>
+            <a class="account" href="login.php">Vous avez déjà un compte? Connectez vous ici !</a>
 
-            <br>
-            <input type="submit" class="submit" value="Login">
+            <input type="submit" class="submit" value="Register">
         </div>
     </div>
     
