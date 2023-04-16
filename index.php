@@ -67,22 +67,22 @@
             <article class="article">
                 <img src="img/monument.png" style="width: 350px; height: 350px;" class="img">
                 <div class="info">
-                    <h1>Monument</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
+                    <h1 class="bat-name">Monument</h1>
+                    <p class="bat-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
                 </div>
             </article>
             <article class="article">
                 <img src="img/monument.png" style="width: 350px; height: 350px;" class="img">
                 <div class="info">
-                    <h1>Monument</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
+                    <h1 class="bat-name">Monument</h1>
+                    <p class="bat-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
                 </div>
             </article>
             <article class="article">
                 <img src="img/monument.png" style="width: 350px; height: 350px;" class="img">
                 <div class="info">
-                    <h1>Monument</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
+                    <h1 class="bat-name">Monument</h1>
+                    <p class="bat-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
                 </div>
             </article>
         </article>
@@ -95,22 +95,22 @@
             <article class="article">
                 <img src="img/monument.png" style="width: 350px; height: 350px;" class="img">
                 <div class="info">
-                    <h1>Musée</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
+                    <h1 class="bat-name">Musée</h1>
+                    <p class="bat-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
                 </div>
             </article>
             <article class="article">
                 <img src="img/monument.png" style="width: 350px; height: 350px;" class="img">
                 <div class="info">
-                    <h1>Musée</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
+                    <h1 class="bat-name">Musée</h1>
+                    <p class="bat-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
                 </div>
             </article>
             <article class="article">
                 <img src="img/monument.png" style="width: 350px; height: 350px;" class="img">
                 <div class="info">
-                    <h1>Musée</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
+                    <h1 class="bat-name">Musée</h1>
+                    <p class="bat-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
                 </div>
             </article>
         </article>

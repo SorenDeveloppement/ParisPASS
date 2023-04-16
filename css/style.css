@@ -88,4 +88,13 @@ h1 {
 
 .h1 {
     margin: 10px;
+    font-size: 30px;
+}
+
+.bat-name {
+    font-size: 25px;
+}
+
+.bat-info {
+    font-size: 18px;
 }
