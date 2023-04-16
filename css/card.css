@@ -25,10 +25,23 @@
 }
 
 .card-text {
-    margin: 10px;
+    margin: 15px;
 }
 
 .back-card {
     /* Centrer les éléments au centre de la carte */
     background: rgba(255, 255, 255, .1);
+}
+
+.center {
+    text-align: center;
+}
+
+.bottom-card {
+    margin-top: 80px;
+}
+
+.text-container {
+    margin-top: 35px;
+    margin-left: 15px;
 }

@@ -48,10 +48,12 @@
                         <img src="img/paris-pass.png" class="card-img">
                     </div>
                     <div class="back-card card-box">
-                        <p class="card-text">Nom : DeTest</p>
-                        <p class="card-text">Prénom : Test</p>
-                        <p class="card-text">Carte crée le : 01/01/2023</p>
-                        <p class="card-text">UUID : 6uhi7 y7hb4 tyei5</p>
+                        <div class="text-container">
+                            <p class="card-text">Nom : DeTest</p>
+                            <p class="card-text">Prénom : Test</p>
+                            <p class="card-text">Crée le : 01/01/2023</p>
+                        </div>
+                        <p class="card-text center bottom-card">6uhi7 y7hb4 tyei5</p>
                     </div>
                 </div>
             </div>
