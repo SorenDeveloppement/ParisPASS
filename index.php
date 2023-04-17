@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/cursor.css">
     <title>Paris CT Pass</title>
 
     <script>
@@ -27,6 +28,7 @@
             <a href="#cards">Mes cartes</a>
             <a href="#monuments">Monuments</a>
             <a href="#museum">Musées</a>
+            <a href="#" class="bottom" style="margin-bottom: 50px;">Acheter une carte</a>
             <a href="login.php" class="bottom">Se connecter</a>
         </div>
     </div>
@@ -44,8 +46,10 @@
 
             <div class="cards">
                 <div class="card">
-                    <div class="front-card card-box">
-                        <img src="img/paris-pass.png" class="card-img">
+                    <div class="front-card card-box shine">
+                        <div class="img-box">
+                            <img src="img/paris-pass.png" class="card-img" style="--l: -75%;">
+                        </div>
                     </div>
                     <div class="back-card card-box">
                         <div class="text-container">
@@ -115,6 +119,8 @@
             </article>
         </article>
     </article>
+
+    <script src="js/trailing_cursor.js"></script>
     
 </body>
 </html>

@@ -43,6 +43,7 @@ h2 {
     border-width: 3px;
     border-image: linear-gradient(90deg, rgb(0, 0, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 0, 0)) 1;
     border-width: 0 0 2px 0;
+    outline: none;
 }
 
 .submit {
