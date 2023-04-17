@@ -7,6 +7,11 @@
 
 .card {
     margin: 25px;
+    z-index: -1;
+}
+
+.cards {
+    z-index: -10;
 }
 
 .card-box {
