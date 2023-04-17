@@ -63,6 +63,8 @@
             </div>
         </article>
 
+        <script src="js/card.js"></script>
+
         <span id="monuments"></span>
         <br><br><br><br>
 

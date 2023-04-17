@@ -1,4 +1,4 @@
-html {
+html * {
     cursor: none;
 }
 
@@ -6,4 +6,5 @@ html {
     position: absolute;
     height: 6px; width: 6px;
     border-radius: 3px;
+    pointer-events: none;
 }

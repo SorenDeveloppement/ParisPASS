@@ -67,7 +67,6 @@ addEventListener("mousemove", function(event) {
 function animate() {
   draw();
   requestAnimationFrame(animate);
-  console.log(dots);
 }
 
 // And get it started by calling animate().

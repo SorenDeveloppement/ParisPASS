@@ -31,5 +31,7 @@
         </div>
     </div>
     
+    <script src="js/trailing_cursor.js"></script>
+    
 </body>
 </html>
