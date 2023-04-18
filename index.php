@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/card.css">
     <link rel="stylesheet" href="css/cursor.css">
     <title>Paris CT Pass</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
 
     <script>
         alert("Il s'agit d'un site fictif réalisé pour un projet d'anglais !")
@@ -28,7 +29,7 @@
             <a href="#cards">Mes cartes</a>
             <a href="#monuments">Monuments</a>
             <a href="#museum">Musées</a>
-            <a href="#" class="bottom" style="margin-bottom: 50px;">Acheter une carte</a>
+            <a href="purchase.php" class="bottom purchase" style="margin-bottom: 50px;">Acheter une carte</a>
             <a href="login.php" class="bottom">Se connecter</a>
         </div>
     </div>
@@ -121,6 +122,13 @@
     </article>
 
     <script src="js/trailing_cursor.js"></script>
+    <!-- <script>
+        var purchase = document.querySelector(".purchase")
+
+        purchase.addEventListener('click', (event) => {
+            alert("Vous venez d'être débiter de 40€ pour l'achat d'un Paris PASS");
+        });
+    </script> -->
     
 </body>
 </html>

@@ -28,6 +28,8 @@ body {
     border-radius: 25px;
     width: 20%;
     height: 50%;
+    min-width: 300px;
+    min-height: 500px;
     background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.15));
 }
 
@@ -66,7 +68,6 @@ h2 {
 .account {
     text-align: justify;
     font-size: 12px;
-    width: 200px;
     margin-top: 20px;
     text-decoration: none;
     color: whitesmoke;

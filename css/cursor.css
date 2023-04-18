@@ -4,7 +4,8 @@ html * {
 
 .trail {
     position: absolute;
-    height: 6px; width: 6px;
-    border-radius: 3px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
     pointer-events: none;
 }
