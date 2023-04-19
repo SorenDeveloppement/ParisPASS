@@ -2,7 +2,10 @@
 
 if (!isset($_SESSION)){
     session_start();
-    $_SESSION['email'] = "azef@gmail.com";
+}
+
+if (empty($_SESSION['email'])) {
+    $_SESSION['email'] = "";
 }
 
 if (empty($_SESSION['logged'])) {
@@ -40,10 +43,10 @@ if (empty($_SESSION['logged'])) {
             <a href="#cards">Mes cartes</a>
             <a href="#monuments">Monuments</a>
             <a href="#museum">Musées</a>
-            <a href="purchase.php" class="bottom purchase" style="margin-bottom: 50px;">Acheter une carte</a>
             <?php 
 
             if ($_SESSION['logged']) {
+                echo "<a href=\"purchase.php\" class=\"bottom purchase\" style=\"margin-bottom: 50px;\">Acheter une carte</a>";
                 echo "<a href=\"logout.php\" class=\"bottom\">Se déconnecter</a>";
             } else {
                 echo "<a href=\"login.php\" class=\"bottom\">Se connecter</a>";

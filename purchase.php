@@ -71,9 +71,7 @@
                     'uuid' => guidv4(),
                     'creation' => date("d-m-Y")
                 ]);
-
-                $_SESSION['email'] = $email;
-                $_SESSION['logged'] = true;
+                
             } catch(Exception $e){
                 echo ('Erreur : '. $e->getMessage());
             }
