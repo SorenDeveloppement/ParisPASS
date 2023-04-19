@@ -12,7 +12,7 @@ var Dot = function(color, zid) {
   this.zid = zid
   this.node = (function(){
     var n = document.createElement("div");
-    n.className = "trail";
+    n.className = `trail ${color}`;
     document.body.appendChild(n);
     return n;
   }());
@@ -50,8 +50,8 @@ function draw() {
     dot.x = x;
     dot.y = y;
     dot.draw();
-    x += (nextDot.x - dot.x) * .7;
-    y += (nextDot.y - dot.y) * .7;
+    x += (nextDot.x - dot.x) * .9;
+    y += (nextDot.y - dot.y) * .9;
 
   });
 }

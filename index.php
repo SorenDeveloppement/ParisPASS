@@ -188,6 +188,23 @@ if (empty($_SESSION['logged'])) {
     </article>
 
     <script src="js/trailing_cursor.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("a").hover(function(){
+                $('.white').css("transform", "scale(1.5)");
+                $('.white').css("opacity", ".8");
+                $('.red').css("transform", "scale(2)");
+                $('.red').css("opacity", ".6");
+            },
+            function() {
+                $('.white').css("transform", "scale(1)");
+                $('.white').css("opacity", "1");
+                $('.red').css("transform", "scale(1)");
+                $('.red').css("opacity", "1");
+            });
+        });
+    </script>
     <!-- <script src="js/map.js"></script>
     
     <script>
