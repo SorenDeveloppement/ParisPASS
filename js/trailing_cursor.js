@@ -50,8 +50,8 @@ function draw() {
     dot.x = x;
     dot.y = y;
     dot.draw();
-    x += (nextDot.x - dot.x) * .9;
-    y += (nextDot.y - dot.y) * .9;
+    x += (nextDot.x - dot.x) * .7;
+    y += (nextDot.y - dot.y) * .7;
 
   });
 }

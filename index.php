@@ -41,6 +41,7 @@ if (empty($_SESSION['logged'])) {
     <div class="menubtn">
         <div class="menu">
             <a href="#cards">Mes cartes</a>
+            <a href="#ppass">La carte</a>
             <a href="#monuments">Monuments</a>
             <a href="#museum">Musées</a>
             <?php 
@@ -64,11 +65,11 @@ if (empty($_SESSION['logged'])) {
         <br><br><br><br>
 
         <article class="cards-container">
-            <h1>Mes cartes :</h1>
+            <h1 class="h1">Mes cartes :</h1>
             <?php 
             
             if (!$_SESSION['logged']) {
-                echo "<p>Vous n'êtes pas connectés</p>";
+                echo "<p style=\"margin-left: 10px;\">Vous n'êtes pas connectés</p>";
             }
 
             try {
@@ -81,8 +82,8 @@ if (empty($_SESSION['logged'])) {
             $q->execute(['email' => $_SESSION['email']]);
             $cards = $q->fetchAll();
 
-            if (empty($cards)) {
-                echo "<p>Vous ne possédez pas encore de carte Paris PASS</p>";
+            if (empty($cards) && $_SESSION['logged']) {
+                echo "<p style=\"margin-left: 10px;\">Vous ne possédez pas encore de carte Paris PASS</p>";
             }
 
             foreach($cards as $card) : ?>
@@ -105,6 +106,22 @@ if (empty($_SESSION['logged'])) {
                     </div>
                 </div>
             <?php endforeach; ?>
+        </article>
+
+        <span id="ppass"></span>
+        <br><br><br><br>
+
+        <article class="articles">
+            <h1 class="h1">La carte</h1>
+            <article style="margin-left: 10px;">
+                <h3>Qu'est ce que la carte Parsi PASS ?</h3>
+                <br>
+                <p>La carte est valable pendant une durée de <span class="evidence">7 jours</span> après activation</p>
+                <p>La carte permet de : </p>
+                <p><span style="padding-left: 20px;">Visiter les <span class="evidence">15 monument</span> listés ci-dessous</span></p>
+                <p><span style="padding-left: 20px;">Prendre le <span class="evidence">métro</span> pendant votre séjour</span></p>
+                <p>Son coût : <span class="evidence">100&euro;</span></p>
+            </article>
         </article>
 
         <span id="monuments"></span>
