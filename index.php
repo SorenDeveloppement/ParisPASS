@@ -1,4 +1,14 @@
-<?php session_start() ?>
+<?php 
+
+if (!isset($_SESSION)){
+    session_start();
+}
+
+if (empty($_SESSION['logged'])) {
+    $_SESSION['logged'] = false;
+}
+
+?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -30,7 +40,15 @@
             <a href="#monuments">Monuments</a>
             <a href="#museum">Musées</a>
             <a href="purchase.php" class="bottom purchase" style="margin-bottom: 50px;">Acheter une carte</a>
-            <a href="login.php" class="bottom">Se connecter</a>
+            <?php 
+
+            if ($_SESSION['logged']) {
+                echo "<a href=\"logout.php\" class=\"bottom\">Se déconnecter</a>";
+            } else {
+                echo "<a href=\"login.php\" class=\"bottom\">Se connecter</a>";
+            }
+        
+            ?>
         </div>
     </div>
 
@@ -43,6 +61,15 @@
 
         <article class="cards-container">
             <h1>Mes cartes :</h1>
+            <?php 
+            
+            if ($_SESSION['logged']) {
+                echo "<p>Connecté</p>";
+            } else {
+                echo "<p>Vous n'êtes pas connectés</p>";
+            }
+
+            ?>
             <p>Vous ne possédez pas encore de carte Paris PASS</p>
 
             <div class="cards">
