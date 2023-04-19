@@ -43,7 +43,9 @@
 }
 
 .bottom-card {
-    margin-top: 80px;
+    margin-top: 54px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .text-container {

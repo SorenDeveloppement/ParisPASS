@@ -2,6 +2,7 @@
 
 if (!isset($_SESSION)){
     session_start();
+    $_SESSION['email'] = "azef@gmail.com";
 }
 
 if (empty($_SESSION['logged'])) {
@@ -63,32 +64,44 @@ if (empty($_SESSION['logged'])) {
             <h1>Mes cartes :</h1>
             <?php 
             
-            if ($_SESSION['logged']) {
-                echo "<p>Connecté</p>";
-            } else {
+            if (!$_SESSION['logged']) {
                 echo "<p>Vous n'êtes pas connectés</p>";
             }
 
-            ?>
-            <p>Vous ne possédez pas encore de carte Paris PASS</p>
+            try {
+                $db = new PDO('mysql:host=localhost;dbname=users;charset=utf8', 'root', '');
+            } catch(Exception $e) {
+                die('Erreur : '.$e->getMessage());
+            }
 
-            <div class="cards">
-                <div class="card">
-                    <div class="front-card card-box shine">
-                        <div class="img-box">
-                            <img src="img/paris-pass.png" class="card-img" style="--l: -75%;">
+            $q = $db->prepare("SELECT * FROM `cardslist` WHERE email = :email");
+            $q->execute(['email' => $_SESSION['email']]);
+            $cards = $q->fetchAll();
+
+            if (empty($cards)) {
+                echo "<p>Vous ne possédez pas encore de carte Paris PASS</p>";
+            }
+
+            foreach($cards as $card) : ?>
+                <div class="cards">
+                    <div class="card">
+                        <div class="front-card card-box shine">
+                            <div class="img-box">
+                                <img src="img/paris-pass.png" class="card-img" style="--l: -75%;">
+                            </div>
                         </div>
-                    </div>
-                    <div class="back-card card-box">
-                        <div class="text-container">
-                            <p class="card-text">Nom : DeTest</p>
-                            <p class="card-text">Prénom : Test</p>
-                            <p class="card-text">Crée le : 01/01/2023</p>
+                        <div class="back-card card-box">
+                            <div class="text-container">
+                                <p class="card-text">Nom : <?php echo $card['lastname'] ?></p>
+                                <p class="card-text">Prénom : <?php echo $card['name'] ?></p>
+                                <p class="card-text">Crée le : <?php echo $card['creation'] ?></p>
+                            </div>
+                            <!-- <p class="card-text center bottom-card"><?php echo $card['uuid'] ?></p> -->
+                            <img alt='Barcode Generator TEC-IT' src='https://barcode.tec-it.com/barcode.ashx?data=<?php echo $card['uuid'] ?>&code=&translate-esc=true' style="width: 100%;" class="bottom-card"/>
                         </div>
-                        <p class="card-text center bottom-card">6uhi7 y7hb4 tyei5</p>
                     </div>
                 </div>
-            </div>
+            <?php endforeach; ?>
         </article>
 
         <span id="monuments"></span>
