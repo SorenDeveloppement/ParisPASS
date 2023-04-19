@@ -2,6 +2,10 @@ html * {
     cursor: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .trail {
     position: absolute;
     height: 15px;

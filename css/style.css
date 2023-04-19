@@ -137,3 +137,14 @@ h1 {
         left: 125%;
     }
 }
+
+.i-map {
+    display: none;
+}
+
+.info:hover .i-map {
+    display: block;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
