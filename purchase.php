@@ -29,7 +29,7 @@
             <a class="account" href="index.php">Revenir à la page principale</a>
 
             <br>
-            <input type="submit" name="submit" id="submit" class="submit" value="Créer une carte">
+            <button type="submit" name="submit" id="submit" class="submit">Créer une carte</button>
         </div>
     </form>
     
