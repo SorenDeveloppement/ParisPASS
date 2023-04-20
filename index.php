@@ -44,6 +44,7 @@ if (empty($_SESSION['logged'])) {
             <a href="#ppass">La carte</a>
             <a href="#monuments">Monuments</a>
             <a href="#museum">Musées</a>
+            <a href="#others">Autres</a>
             <?php 
 
             if ($_SESSION['logged']) {
@@ -114,11 +115,11 @@ if (empty($_SESSION['logged'])) {
         <article class="articles">
             <h1 class="h1">La carte</h1>
             <article style="margin-left: 10px;">
-                <h3>Qu'est ce que la carte Parsi PASS ?</h3>
+                <h3>Qu'est ce que la carte Paris PASS ?</h3>
                 <br>
                 <p>La carte est valable pendant une durée de <span class="evidence">7 jours</span> après activation</p>
                 <p>La carte permet de : </p>
-                <p><span style="padding-left: 20px;">Visiter les <span class="evidence">15 monument</span> listés ci-dessous</span></p>
+                <p><span style="padding-left: 20px;">Visiter les <span class="evidence">15 monuments et musées</span> listés ci-dessous</span></p>
                 <p><span style="padding-left: 20px;">Prendre le <span class="evidence">métro</span> pendant votre séjour</span></p>
                 <p>Son coût : <span class="evidence">100&euro;</span></p>
             </article>
@@ -130,25 +131,65 @@ if (empty($_SESSION['logged'])) {
         <article class="articles">
             <h1 class="h1">Monuments à visiter :</h1>
             <article class="article">
-                <img src="img/monument.png" style="width: 350px; height: 350px;" class="img">
+                <img src="img/eiffel.jpg" style="width: 350px; height: 350px;" class="img">
                 <div class="info">
-                    <h1 class="bat-name">Monument</h1>
+                    <h1 class="bat-name">Tour Eiffel</h1>
                     <iframe class="i-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1079.8143028838053!2d2.294042832890576!3d48.85791246184352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1681906391394!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <p class="bat-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
                 </div>
             </article>
             <article class="article">
-                <img src="img/monument.png" style="width: 350px; height: 350px;" class="img">
+                <img src="img/triomphe.jpg" style="width: 350px; height: 350px;" class="img">
                 <div class="info">
-                    <h1 class="bat-name">Monument</h1>
+                    <h1 class="bat-name">Arc de triomphe</h1>
                     <iframe class="i-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1079.8143028838053!2d2.294042832890576!3d48.85791246184352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1681906391394!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <p class="bat-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
                 </div>
             </article>
             <article class="article">
-                <img src="img/monument.png" style="width: 350px; height: 350px;" class="img">
+                <img src="img/versaille.jpg" style="width: 350px; height: 350px;" class="img">
                 <div class="info">
-                    <h1 class="bat-name">Monument</h1>
+                    <h1 class="bat-name">Château de Versaille</h1>
+                    <iframe class="i-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1079.8143028838053!2d2.294042832890576!3d48.85791246184352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1681906391394!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p class="bat-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
+                </div>
+            </article>
+            <article class="article">
+                <img src="img/pierrefonds.jpg" style="width: 350px; height: 350px;" class="img">
+                <div class="info">
+                    <h1 class="bat-name">Château de Pierrefonds</h1>
+                    <iframe class="i-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1079.8143028838053!2d2.294042832890576!3d48.85791246184352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1681906391394!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p class="bat-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
+                </div>
+            </article>
+            <article class="article">
+                <img src="img/invalides.jpg" style="width: 350px; height: 350px;" class="img">
+                <div class="info">
+                    <h1 class="bat-name">Les Invalides</h1>
+                    <iframe class="i-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1079.8143028838053!2d2.294042832890576!3d48.85791246184352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1681906391394!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p class="bat-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
+                </div>
+            </article>
+            <article class="article">
+                <img src="img/notre_dame.jpeg" style="width: 350px; height: 350px;" class="img">
+                <div class="info">
+                    <h1 class="bat-name">Notre Dame</h1>
+                    <iframe class="i-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1079.8143028838053!2d2.294042832890576!3d48.85791246184352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1681906391394!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p class="bat-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
+                </div>
+            </article>
+            <article class="article">
+                <img src="img/opera.jpg" style="width: 350px; height: 350px;" class="img">
+                <div class="info">
+                    <h1 class="bat-name">Opéra de Paris</h1>
+                    <iframe class="i-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1079.8143028838053!2d2.294042832890576!3d48.85791246184352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1681906391394!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p class="bat-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
+                </div>
+            </article>
+            <article class="article">
+                <img src="img/conciergerie.jpg" style="width: 350px; height: 350px;" class="img">
+                <div class="info">
+                    <h1 class="bat-name">Conciergerie</h1>
                     <iframe class="i-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1079.8143028838053!2d2.294042832890576!3d48.85791246184352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1681906391394!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <p class="bat-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
                 </div>
@@ -161,9 +202,25 @@ if (empty($_SESSION['logged'])) {
         <article class="articles">
             <h1 class="h1">Musées à visiter :</h1>
             <article class="article">
-                <img src="img/monument.png" style="width: 350px; height: 350px;" class="img">
+                <img src="img/louvre.jpg" style="width: 350px; height: 350px;" class="img">
                 <div class="info">
-                    <h1 class="bat-name">Musée</h1>
+                    <h1 class="bat-name">Musée du Louvre</h1>
+                    <iframe class="i-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1079.8143028838053!2d2.294042832890576!3d48.85791246184352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1681906391394!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p class="bat-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
+                </div>
+            </article>
+            <article class="article">
+                <img src="img/mnhm.jpg" style="width: 350px; height: 350px;" class="img">
+                <div class="info">
+                    <h1 class="bat-name">Musée National d'Histoire Naturelle</h1>
+                    <iframe class="i-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1079.8143028838053!2d2.294042832890576!3d48.85791246184352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1681906391394!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p class="bat-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
+                </div>
+            </article>
+            <article class="article">
+                <img src="img/pompidou.jpg" style="width: 350px; height: 350px;" class="img">
+                <div class="info">
+                    <h1 class="bat-name">Centre Pompidou</h1>
                     <iframe class="i-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1079.8143028838053!2d2.294042832890576!3d48.85791246184352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1681906391394!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <p class="bat-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
                 </div>
@@ -171,15 +228,38 @@ if (empty($_SESSION['logged'])) {
             <article class="article">
                 <img src="img/monument.png" style="width: 350px; height: 350px;" class="img">
                 <div class="info">
-                    <h1 class="bat-name">Musée</h1>
+                    <h1 class="bat-name">Musée Méliès</h1>
                     <iframe class="i-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1079.8143028838053!2d2.294042832890576!3d48.85791246184352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1681906391394!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <p class="bat-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
                 </div>
             </article>
             <article class="article">
-                <img src="img/monument.png" style="width: 350px; height: 350px;" class="img">
+                <img src="img/air.png" style="width: 350px; height: 350px;" class="img">
                 <div class="info">
-                    <h1 class="bat-name">Musée</h1>
+                    <h1 class="bat-name">Musée de l'aire et de l'espace</h1>
+                    <iframe class="i-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1079.8143028838053!2d2.294042832890576!3d48.85791246184352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1681906391394!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p class="bat-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
+                </div>
+            </article>
+        </article>
+
+        <span id="others"></span>
+        <br><br><br><br>
+
+        <article class="articles">
+            <h1 class="h1">Autres : </h1>
+            <article class="article">
+                <img src="img/mouche.jpg" style="width: 350px; height: 350px;" class="img">
+                <div class="info">
+                    <h1 class="bat-name">Bateau Mouche</h1>
+                    <iframe class="i-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1079.8143028838053!2d2.294042832890576!3d48.85791246184352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1681906391394!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p class="bat-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
+                </div>
+            </article>
+            <article class="article">
+                <img src="img/bus.jpg" style="width: 350px; height: 350px;" class="img">
+                <div class="info">
+                    <h1 class="bat-name">Visite en bus</h1>
                     <iframe class="i-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1079.8143028838053!2d2.294042832890576!3d48.85791246184352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1681906391394!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <p class="bat-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
                 </div>
