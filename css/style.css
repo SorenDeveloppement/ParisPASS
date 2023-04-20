@@ -93,6 +93,7 @@ h1 {
 
 .bat-name {
     font-size: 25px;
+    text-decoration: underline;
 }
 
 .bat-info {
