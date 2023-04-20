@@ -228,7 +228,7 @@ if (empty($_SESSION['logged'])) {
             <article class="article">
                 <img src="img/monument.png" style="width: 350px; height: 350px;" class="img">
                 <div class="info">
-                    <h1 class="bat-name">Musée Méliès</h1>
+                    <h1 class="bat-name">Musée d'Orsay</h1>
                     <iframe class="i-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.1032453305284!2d2.3801370802658197!3d48.837169310255916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e673db8db60a45%3A0x3e4c66100a94da0a!2zTXVzw6llIE3DqWxpw6hz!5e0!3m2!1sfr!2sfr!4v1681999571981!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <p class="bat-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
                 </div>
@@ -251,7 +251,7 @@ if (empty($_SESSION['logged'])) {
             <article class="article">
                 <img src="img/mouche.jpg" style="width: 350px; height: 350px;" class="img">
                 <div class="info">
-                    <h1 class="bat-name">Bateau Mouche</h1>
+                    <h1 class="bat-name">Bateaux-Mouches</h1>
                     <iframe class="i-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.6958158103853!2d2.3059374!3d48.86401059999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fda56cd2849%3A0xeb1543c56c29aad3!2sBateaux-Mouches!5e0!3m2!1sfr!2sfr!4v1681999792532!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <p class="bat-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, error illum enim cupiditate modi eveniet. Vitae officiis, dolor, reiciendis labore illum perspiciatis voluptatum eos eaque enim maiores, velit autem?</p>
                 </div>
