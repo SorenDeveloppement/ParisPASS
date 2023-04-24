@@ -26,10 +26,10 @@
                 <input type="text" name="name" id="text" placeholder="Prénom" class="field">
             </div>
 
-            <a class="account" href="index.php">Revenir à la page principale</a>
+            <a class="account" href="index.php">Back to homepage</a>
 
             <br>
-            <button type="submit" name="submit" id="submit" class="submit">Créer une carte</button>
+            <button type="submit" name="submit" id="submit" class="submit">Purchase a card</button>
         </div>
     </form>
     

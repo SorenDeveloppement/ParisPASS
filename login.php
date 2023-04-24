@@ -26,7 +26,7 @@
                 <input type="password" name="password" id="password" placeholder="Password" class="field">
             </div>
 
-            <a class="account" href="register.php">Vous n'avez pas de compte? Créez en un ici !</a>
+            <a class="account" href="register.php">You don't have an account ? Create one here !</a>
 
             <br>
             <button type="submit" name="submit" id="submit" class="submit">Login</button>

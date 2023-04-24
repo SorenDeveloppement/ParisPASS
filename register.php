@@ -27,7 +27,7 @@
                 <input type="password" name="pass_conf" id="pass_conf" placeholder="Password check" class="field">
             </div>
 
-            <a class="account" href="login.php">Vous avez déjà un compte? Connectez vous ici !</a>
+            <a class="account" href="login.php">Already have an account ? Log in here !</a>
 
             <button type="submit" name="submit" id="submit" class="submit">Register</button>
         </div>
